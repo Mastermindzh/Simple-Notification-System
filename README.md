@@ -123,7 +123,6 @@ There are many animations you can do with jQuery, I will be supplying you with 2
 <a name = "Screenshots"></a>
 ##Screenshots
 <a name = "s1"></a>
-*The following screenshot shows the popup box with the following classes: notifier whitered botright edged*<br />
 ![screenshot1](Screenshots/s1.png)
 ![screenshot2](Screenshots/s2.png)
 ![screenshot3](Screenshots/s3.png)
