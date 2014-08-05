@@ -105,19 +105,19 @@ In this example the popup will appear in the bottom right and will be stuck to t
 
 <a name = "usagephp"></a>
 ##Usage with php
-The php
+This will be added later.
 <a name = "css"></a>
 ##Editing the css
 
 <a name = "animation"></a>
 ##Animation
 There are many animations you can do with jQuery, I will be supplying you with 2 of them.
-**fadein and fadeout:**
+<p>**fadein and fadeout:**</p>
 `<script>$('#notifier').fadeIn('slow').delay(5000).fadeOut('slow');</script>`
-**Slide in and slide out:**
+<p>**Slide in and slide out:**</p>
 `<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`
-
-Both examples have a 5000ms delay.
+<p>
+Both examples have a 5000ms delay.</p>
 
 <a name = "Screenshots"></a>
 ##Screenshots
