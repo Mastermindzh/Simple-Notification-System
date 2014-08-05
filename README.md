@@ -8,6 +8,7 @@ Use the Table of contents for quick navigation around this readme file.
     <li><a href = "#nophp">Usage without php</a></li>
     <li><a href = "#usagephp">Usage with php</a></li>
     <li><a href = "#css">Editing the css</a></li>
+    <li><a href = "#animations">Animations</a></li>
     <li><a href = "#screenshots">Screenshots</a></li>
 </ul>
 
@@ -80,9 +81,10 @@ As you can see, I've added a "close" button and some text to the div.
 
 Now we will have to add more "<a href = "#class_options">class_options</a>". 
 To do this edit the piece of code that says:
-`<div id="notifier" class = "notifier">`
+<br />
+`<div id="notifier" class = "notifier">`<br />
 to include the new classes like so:
-`<div id="notifier" class = "notifier whitered botright edged">`
+<br />`<div id="notifier" class = "notifier whitered botright edged">`<br />
 In this example the popup will appear in the bottom right and will be stuck to the browsers bottom. (<a href = "#s1">screenshot 1)</a>
 
 
@@ -94,7 +96,18 @@ The php
 <a name = "css"></a>
 ##Editing the css
 
+<a name = "animation"></a>
+##Animation
+There are many animations you can do with jQuery, I will be supplying you with 2 of them.
+### fadein and fadeout:
+`<script>$('#notifier').fadeIn('slow').delay(5000).fadeOut('slow');</script>`
+### Slide in and slide out:
+`<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`
+
+Both examples have a 5000ms delay.
+
 <a name = "Screenshots"></a>
 ##Screenshots
 <a name = "s1"></a>
+####The following screenshot shows the popup box with the following classes: notifier whitered botright edged
 ![screenshot1](Screenshots/s1.png)
