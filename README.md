@@ -13,6 +13,19 @@ Use the Table of contents for quick navigation around this readme file.
 ##Class options
 These are all the options provided by default in the SNS.
 
+<table>
+	<tr>
+		<th>Class</th>
+        <th>Function</th>
+    </tr>
+    <tr>
+    	<td>topleft</td>
+        <td>Use this class if you want the popup on the top left</td>
+    </tr>
+    
+    
+</table>
+
 
 ##Usage without php
 Using SNS without php requires you to write the html code yourself, this is fine if you want to have a single or very few popups. If you want to have a side-wide solution I suggest you go to "<a href = "#usagephp">Usage with php</a>"
