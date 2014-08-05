@@ -122,5 +122,5 @@ Both examples have a 5000ms delay.</p>
 <a name = "Screenshots"></a>
 ##Screenshots
 <a name = "s1"></a>
-*The following screenshot shows the popup box with the following classes: notifier whitered botright edged*
+*The following screenshot shows the popup box with the following classes: notifier whitered botright edged*<br />
 ![screenshot1](Screenshots/s1.png)
