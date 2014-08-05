@@ -4,14 +4,15 @@ A simple notification system built to be light yet functional.
 Use the Table of contents for quick navigation around this readme file.
 
 <ul>
-	<li>Class options</li>
+	<li>[Class options](#class_options)</li>
     <li>Usage without php</li>
     <li>Usage with php</li>
     <li>Editing the css</li>
 </ul>
 
+<a name = "class_options"></a>
 ##Class options
-These are all the options provided by default in the SNS.
+These are all the options provided by default in the SNS. Have a look at the "Usage" part of this readme to find out how to apply these classes.
 
 <table>
 	<tr>
@@ -22,8 +23,26 @@ These are all the options provided by default in the SNS.
     	<td>topleft</td>
         <td>Use this class if you want the popup on the top left</td>
     </tr>
-    
-    
+    <tr>
+    	<td>topright</td>
+        <td>Use this class if you want the popup on the top right</td>
+    </tr>
+    <tr>
+    	<td>botleft</td>
+        <td>Use this class if you want the popup on the bottom left</td>
+    </tr>
+    <tr>
+    	<td>botright</td>
+        <td>Use this class if you want the popup on the bottom right</td>
+    </tr>
+    <tr>
+    	<td>flip</td>
+        <td>flip will flip the border from top to bottom, usefull for when you your popup on the top of the page</td>
+    </tr>
+    <tr>
+    	<td>edged</td>
+        <td>edged will remove the margin and stick it to the bottom / top </td>
+    </tr>
 </table>
 
 
