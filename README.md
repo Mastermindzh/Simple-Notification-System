@@ -4,7 +4,7 @@ A simple notification system built to be light yet functional.
 Use the Table of contents for quick navigation around this readme file.
 
 <ul>
-	<li>[Class options](#class_options)</li>
+	<li><a href = "#class_options">class_options</a></li>
     <li>Usage without php</li>
     <li>Usage with php</li>
     <li>Editing the css</li>
