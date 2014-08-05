@@ -5,10 +5,11 @@ Use the Table of contents for quick navigation around this readme file.
 
 <ul>
 	<li><a href = "#class_options">class_options</a></li>
+    <li><a href = "#required">Required steps</a></li>
     <li><a href = "#nophp">Usage without php</a></li>
     <li><a href = "#usagephp">Usage with php</a></li>
     <li><a href = "#css">Editing the css</a></li>
-    <li><a href = "#animations">Animations</a></li>
+    <li><a href = "#animation">Animations</a></li>
     <li><a href = "#screenshots">Screenshots</a></li>
 </ul>
 
@@ -59,6 +60,18 @@ These are all the options provided by default in the SNS. Have a look at the "Us
     </tr>
 </table>
 
+<a name = "required"></a>
+##required steps
+To make SNS work you have to add 2 bits of code apart from the actual content div. These should be included on every page with a popup.
+One being the link to the css (for best performance you could include the css code in your own stylesheet).
+We can add the css as follows:<br />
+`<link rel='stylesheet' href='./notifier.css' type='text/css' />`<br />
+We will also need to have a jQuery script to start the animation. Examples of these can be found under: <a href = "#animation">Animations</a><br />
+The default script would be as follows:<br />
+`<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`<br />
+
+You should add the jQuery to the very bottom of the page, right before the end `</body>` tag.
+
 <a name = "nophp"></a>
 ##Usage without php
 Using SNS without php requires you to write the html code yourself, this is fine if you want to have a single or very few popups. If you want to have a side-wide solution I suggest you go to "<a href = "#usagephp">Usage with php</a>"
@@ -99,9 +112,9 @@ The php
 <a name = "animation"></a>
 ##Animation
 There are many animations you can do with jQuery, I will be supplying you with 2 of them.
-### fadein and fadeout:
+**fadein and fadeout:**
 `<script>$('#notifier').fadeIn('slow').delay(5000).fadeOut('slow');</script>`
-### Slide in and slide out:
+**Slide in and slide out:**
 `<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`
 
 Both examples have a 5000ms delay.
@@ -109,5 +122,5 @@ Both examples have a 5000ms delay.
 <a name = "Screenshots"></a>
 ##Screenshots
 <a name = "s1"></a>
-####The following screenshot shows the popup box with the following classes: notifier whitered botright edged
+*The following screenshot shows the popup box with the following classes: notifier whitered botright edged*
 ![screenshot1](Screenshots/s1.png)
