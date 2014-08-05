@@ -92,7 +92,7 @@ X</a>
 ```
 As you can see, I've added a "close" button and some text to the div.
 
-Now we will have to add more "<a href = "#class_options">class_options</a>". 
+Now we will have to add more "<a href = "#class_options">class_options</a>".
 To do this edit the piece of code that says:
 <br />
 `<div id="notifier" class = "notifier">`<br />
@@ -114,13 +114,16 @@ This will be added later.
 There are many animations you can do with jQuery, I will be supplying you with 2 of them.
 <p>**fadein and fadeout:**</p>
 `<script>$('#notifier').fadeIn('slow').delay(5000).fadeOut('slow');</script>`
+![gif1](Screenshots/fade.gif)
 <p>**Slide in and slide out:**</p>
 `<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`
-<p>
-Both examples have a 5000ms delay.</p>
+![gif1](Screenshots/slide.gif)
+<p>Both examples have a 5000ms delay.</p>
 
 <a name = "Screenshots"></a>
 ##Screenshots
 <a name = "s1"></a>
 *The following screenshot shows the popup box with the following classes: notifier whitered botright edged*<br />
 ![screenshot1](Screenshots/s1.png)
+![screenshot2](Screenshots/s2.png)
+![screenshot3](Screenshots/s3.png)
