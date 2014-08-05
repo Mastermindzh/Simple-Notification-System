@@ -3,13 +3,16 @@ A simple notification system built to be light yet functional.
 
 Use the Table of contents for quick navigation around this readme file.
 
-[TOC]
+<ul>
+	<li>Class options</li>
+    <li>Usage without php</li>
+    <li>Usage with php</li>
+    <li>Editing the css</li>
+</ul>
 
 ##Class options
 These are all the options provided by default in the SNS.
-| column | column |
-|--------|--------|
-|        |        |
+
 
 ##Usage without php
 Using SNS without php requires you to write the html code yourself, this is fine if you want to have a single or very few popups. If you want to have a side-wide solution I suggest you go to "<a href = "#usagephp">Usage with php</a>"
@@ -38,6 +41,6 @@ Now we will have to add more "class options"
 ##Usage with php
 The php
 
-###Editing the css
+##Editing the css
 
 
