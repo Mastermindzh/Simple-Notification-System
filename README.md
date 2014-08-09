@@ -106,7 +106,7 @@ I will make the assumption that you already have an included footer and header.
 <br /><br />
 To start, place the sns.php file somewhere in your project.
 Open up your header include file and add the following line:
-`<?php include('sns.php');?>`*You might have to change the path*<br />
+`<?php include('sns.php');?>`**You might have to change the path**<br />
 Now open up your footer include file and add this line of jQuery:
 `<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`<br />
 The preparations are now done. You can now simply call a popup from any page with:
