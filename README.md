@@ -98,13 +98,23 @@ To do this edit the piece of code that says:
 to include the new classes like so:
 <br />`<div id="notifier" class = "notifier whitered botright edged">`<br />
 In this example the popup will appear in the bottom right and will be stuck to the browsers bottom. (<a href = "#s1">screenshot 1)</a>
-
+`<?php include('sns.php');?>`
+Now open up your footer include file and add this line of jQuery:
+`<script>$('#notifier').slideDown('slow').delay(5000).slideUp('slow');</script>`
+The preparations are now done. You can now simply call a popup from any page with:
+`<?php  popUp("notifier botright whitred edged", "Testtext");?>`
+Of course you need to replace the parameters to adjust it to your sites look and feel.
 
 
 
 <a name = "usagephp"></a>
 ##Usage with php
-This will be added later.
+If you want to use a popup on many pages I suggest going with this solution.
+I will make the assumption that you already have an included footer and header.
+
+To start, place the sns.php file somewhere in your project.
+Open up your header include file and add the following line:
+
 
 <a name = "animation"></a>
 ##Animation
